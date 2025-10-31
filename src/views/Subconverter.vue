@@ -234,6 +234,16 @@ export default {
         },
         backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }, { value: "http://152.67.125.55:25500/sub?" }],
         remoteConfig: [
+        {
+            label: "哈络沃德",
+            options: [
+              {
+                label: "自定义",
+                value:
+                  "https://gist.githubusercontent.com/kopscript/dc7d985eae4a14fc5cbad4b6b82ce0dc/raw/hellorules.txt"
+              }
+            ]
+          },
           {
             label: "universal",
             options: [
