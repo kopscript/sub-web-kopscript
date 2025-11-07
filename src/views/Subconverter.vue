@@ -519,7 +519,7 @@ export default {
 
       let data = new FormData();
       data.append("longUrl", btoa(this.customSubUrl));
-
+      alert(shortUrlBackend)
       this.$axios
         .post(shortUrlBackend, data, {
           header: {
@@ -536,7 +536,7 @@ export default {
           }
         })
         .catch(() => {
-          this.$message.error("短链接获取失败");
+          this.$message.error("短链接获取失败 9999");
         })
         .finally(() => {
           this.loading = false;
