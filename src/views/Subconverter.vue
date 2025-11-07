@@ -535,8 +535,8 @@ export default {
             this.$message.error("短链接获取失败：" + res.data.Message);
           }
         })
-        .catch(() => {
-          this.$message.error("短链接获取失败 9999");
+        .catch((error) => {
+          this.$message.error("短链接获取失败 9999" + error);
         })
         .finally(() => {
           this.loading = false;
